@@ -3,3 +3,15 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1080px) {
+  .App {
+    padding: 0px 66px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .App {
+    padding: 0px 32px;
+  }
+}
