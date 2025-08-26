@@ -1,7 +1,12 @@
 import React from 'react'
 import '../Styles/Footer.css'
 import logo from '../Assets/Icons/notion-logo.svg'
+
 import xIcon from '../Assets/Icons/x-icon.svg'
+
+
+import xIcon from '../Assets/Icons/x-icon.svg'
+
 import linkedin from '../Assets/Icons/linkedin-icon.svg'
 import youTubeIcon from '../Assets/Icons/you-tube-icon.svg'
 import fbicon from '../Assets/Icons/fb-icon.svg'
