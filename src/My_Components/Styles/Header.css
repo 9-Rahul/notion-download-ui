@@ -1,0 +1,142 @@
+.header-outer {
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    padding: 18px 25px;
+    /* background-color: red; */
+    justify-content: space-between;
+    font-weight: medium;
+    border-bottom: 1px solid #e2e0e0;
+
+}
+
+.header-left img:hover {
+    cursor: pointer;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin-left: 180px;
+}
+
+.header-center button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    gap: 8px;
+
+}
+
+.header-center button span {
+    font-size: 14px;
+    letter-spacing: 0.125px;
+    font-weight: medium;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.header-center button img {
+    width: 18px;
+    height: 18px;
+}
+
+.arrow-up {
+    display: none;
+}
+
+.header-center button:hover {
+    background-color: #e2e0e0;
+    cursor: pointer;
+    transition: background-color .16s ease;
+
+    .arrow-up {
+        display: flex;
+    }
+
+    .arrow-down {
+        display: none;
+    }
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-right> :first-child {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.header-right> :first-child:hover {
+    background-color: #dedcdc;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.header-right> :nth-child(2) {
+    background-color: black;
+    border: none;
+    color: #f7f7f7;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-right> :nth-child(2):hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.header-right img {
+    height: 24px;
+    width: 24px;
+    display: none;
+}
+
+.hamburger-icon {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-center {
+        display: none;
+    }
+
+    .header-right img {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .header-right button {
+        display: none;
+    }
+}
+
+@media screen and (amx-width: 499px) {
+    .header-container {
+        padding: 18px 15px;
+    }
+}
