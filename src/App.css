@@ -6,12 +6,6 @@
 
 @media screen and (max-width: 1080px) {
   .App {
-    padding: 0px 66px;
-  }
-}
-
-@media screen and (max-width:599px) {
-  .App {
-    padding: 0px 32px;
+    padding-left: clamp(1 rem, 5vw);
   }
 }

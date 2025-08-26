@@ -134,3 +134,9 @@
         display: none;
     }
 }
+
+@media screen and (amx-width: 499px) {
+    .header-container {
+        padding: 18px 15px;
+    }
+}
