@@ -14,7 +14,7 @@ const Banner = () => {
 
                     <div className="banner-para"><span>Fast and minimal. Work without distractions.</span></div>
                     <div className="banner-btns-container">
-                        <button ><img src={windIcon} alt="" />Download for Windows</button>
+                        <button ><img src={windIcon} alt="windows-icon" />Download for Windows</button>
                         <button>
                             <img className='microsoft-icon' src={microsofticon} alt="microsoft-icon" />
                         </button>
